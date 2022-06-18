@@ -4,6 +4,7 @@ import ChatIcon from '@mui/icons-material/Chat'
 import DonutLargeIcon from '@mui/icons-material/DonutLarge'
 import MoreVertIcon from '@mui/icons-material/MoreVert'
 import { SearchOutlined } from '@mui/icons-material'
+import SideChat from './SideChat.js'
 
 function Sidebar() {
   return (
@@ -31,7 +32,10 @@ function Sidebar() {
         </div>
       </div>
       <div className='side_chats'>
-
+        <SideChat addNewChat/>
+        <SideChat />
+        <SideChat />
+        <SideChat />
       </div>
     </div>
   );
